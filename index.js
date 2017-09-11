@@ -29,7 +29,7 @@ function currentLine(line) {
       array.push(`The line is currently empty.`);
       return array;
     } else if (line.length >= 1) {
-      array.push(`The line is currently: ${line[l]}`)
+      array.push(`The line is currently: ${line[i]}`)
       return array;
     }
 
